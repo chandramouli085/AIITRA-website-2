@@ -168,6 +168,9 @@ nav div ul li:hover {
 	text-decoration: none;
 	color: blue;
 }
+.contact-form {
+	padding: 0 50px 100px 50px;
+}
 
 /*================================*/
 /* Footer */
