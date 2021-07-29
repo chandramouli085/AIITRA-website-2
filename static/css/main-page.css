@@ -14,7 +14,7 @@ header {
 }
 
 section {
-	padding: 50px 0 50px 0;
+	padding: 20px 0 50px 0;
 }
 
 /*================================*/
@@ -25,9 +25,40 @@ nav div ul li:hover {
 	background: #13334F ;
 	transition: background 0.3s ease-in-out 0s;
 }
-
+.nav-link {
+	font-size: 1.2rem;
+}
 .navbar > .navbar-collapse > .navbar-nav > .nav-item > a:hover {
     color: white;
+}
+
+/*================================*/
+/* Events */
+/*================================*/
+.events {
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg2.jpg");
+	/*background: #182F48;*/
+	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.events .card {
+	border-style: solid;
+	border-width: 10px;
+	border-color: #0E5560;
+	background: #A4DEE9;
+	color: #173A3C;
+	border-radius: 20px;
+}
+.events .card hr {
+	border-top: 4px solid #0E5560;
+	width: 50%;
+}
+.events event-link a{
+	color: #0F304F;
+	text-align: center;
 }
 
 
@@ -35,30 +66,39 @@ nav div ul li:hover {
 /* Team members */
 /*================================*/
 .team {
-	background-color: #BBE6FF;
+	/*background-color: #BBE6FF;*/
+	background: url("../images/bg3.jpg");
+	/*background: #182F48;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.card {
+.team header {
+	color: white;
+}
+.team .card {
 	border-radius: 20px 20px 20px 20px;
 }
-.card-body {
+.team .card-body {
 	padding: 10px;
 }
-.card-title {
+.team .card-title {
 	margin-bottom: 5px;
 }
-.card-text {
+.team .card-text {
 	font-size: 12px;
 }
-.member-image {
+.team .member-image {
 	position: relative;
 	width: 100%;
 	max-width: 400px;
 }
-.card-img-top, .overlay {
+.team .card-img-top, .overlay {
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
-.overlay {
+.team .overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -73,7 +113,7 @@ nav div ul li:hover {
 .member-image:hover .overlay {
 	opacity: 1;
 }
-.icon-list {
+.team .icon-list {
 	list-style-type: none;
 	position: absolute;
 	top: 50%;
@@ -86,7 +126,7 @@ nav div ul li:hover {
 	padding: 0;
 	margin: 0;
 }
-ul.icon-list > li {
+.team ul.icon-list > li {
 	display: inline;
 	margin: 0 5px 0 5px;
 }
@@ -102,7 +142,10 @@ ul.icon-list > li {
 /* Contact */
 /*================================*/
 .contact {
-	background-color: #A2C7E7;
+	/*background-color: #A2C7E7;*/
+	background-image: url("../images/worldmap.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;  
 }
 .contact-text {
 	font-size: 25px;
@@ -124,4 +167,11 @@ ul.icon-list > li {
 .useful-links a:hover {
 	text-decoration: none;
 	color: blue;
+}
+
+/*================================*/
+/* Footer */
+/*================================*/
+.footer {
+	background: #EAE9E9;
 }
