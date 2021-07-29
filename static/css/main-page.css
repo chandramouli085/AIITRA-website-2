@@ -36,7 +36,8 @@ nav div ul li:hover {
 /* Events */
 /*================================*/
 .events {
-	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg2.jpg");
+	background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/bg4.jpg");
+	/*background: url("../images/bg4.jpg");*/
 	/*background: #182F48;*/
 	color: white;
 	background-attachment: fixed;
@@ -67,7 +68,8 @@ nav div ul li:hover {
 /*================================*/
 .team {
 	/*background-color: #BBE6FF;*/
-	background: url("../images/bg3.jpg");
+	background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/bg4.jpg");
+	/*background: url("../images/bg4.jpg");*/
 	/*background: #182F48;*/
 	background-attachment: fixed;
 	background-position: center;
