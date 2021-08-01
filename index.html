@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/main-page.css">
+    <link rel="stylesheet" href="static/css/main-page-mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -22,16 +23,24 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto mr-3">
                 <li class="nav-item px-2 text-right">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home">
+                        <span>Home</span>
+                    </a>
                 </li>
                 <li class="nav-item px-2 text-right">
-                    <a class="nav-link" href="#events">Events</a>
+                    <a class="nav-link" href="#events">
+                        <span>Events</span>
+                    </a>
                 </li> 
                 <li class="nav-item px-2 text-right">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="#team">
+                        <span>Team</span>
+                    </a>
                 </li>
                 <li class="nav-item px-2 text-right">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">
+                        <span>Contact</span>
+                    </a>
                 </li>    
             </ul>
         </div>  
@@ -45,23 +54,23 @@
     <hr>
     <section class="events" id="events">
         <div class="container text-center">
-            <header class="section-header text-center p-5">
+            <header class="section-header text-center">
                 <h1>Events</h1>
             </header>
             <div class="card container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-4 p-5">
+                    <div class="event-img col-md-4 col-sm-4 col-12 d-flex align-items-center">
                         <img class="card-img" src="static/images/Events/wall_e.jpg">
                     </div>
-                    <div class="col-md-8 col-sm-8 col-8 pt-5">
+                    <div class="event-details col-md-8 col-sm-8 col-12">
                         <h3>Event Title</h3>
                         <hr>
-                        <div class="text-left px-5">
+                        <div class="event-description text-left">
                             <p>Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description </p>
                             <p>Registration Deadline: DD/MM/YYYY</p>
                             <p>Event Timiline: XYZ</p>
                         </div>
-                        <div class="event-link justify-content pt-5">
+                        <div class="event-link justify-content">
                             <a class="btn btn-lg btn-primary" href="#" role="button">More Details and Registrations</a>
                         </div>
                     </div>
@@ -72,7 +81,7 @@
     <hr>
     <section class="sponsors" id="sponsors">
         <div class="container text-center">
-            <header class="section-header p-5">
+            <header class="section-header">
                 <h1>Sponsors</h1>
                 <p>Our endeavours are funded by the following companies</p>
             </header>
@@ -131,11 +140,11 @@
     <hr>
     <section class="team" id="team">
         <div class="container text-center">
-            <header class="section-header text-center p-5">
+            <header class="section-header text-center">
                 <h1>Our Team</h1>
             </header>
             <div class="row">
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/Saksham_Katiyar.jpg" alt="Card image" style="height: 70%">
@@ -165,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/team_member.png" alt="Card image" style="height: 70%">
@@ -195,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/team_member.png" alt="Card image" style="height: 70%">
@@ -225,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/team_member.png" alt="Card image" style="height: 70%">
@@ -255,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/team_member.png" alt="Card image" style="height: 70%">
@@ -285,7 +294,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-member col-md-4 col-sm-4 col-4 p-5">
+                <div class="team-member col-md-4 col-sm-4 col-6">
                     <div class="card" style="width:100%">
                         <div class="member-image">
                             <img class="card-img-top" src="static/images/Team/team_member.png" alt="Card image" style="height: 70%">
@@ -321,15 +330,15 @@
     <hr>
     <section class="contact" id="contact">
         <div class="container-fluid text-center">
-            <header class="section-header p-5">
+            <header class="section-header">
                 <h1>Contact</h1>
             </header>
             <div class="row">
-                <div class="contact-info col-sm-4 col-md-4 col-6">
-                    <div class="text-left px-5 pb-5">
-                        <div class="row description-title mb-3">
-                            <img src="static/images/Logo/logo_image.svg" alt="John Doe" class="m-1" style="width:50px;">
-                            <img src="static/images/Logo/logo_text.svg" alt="John Doe" class="m-1 ml-4" style="width:110px;">
+                <div class="contact-info col-sm-4 col-md-4 col-12">
+                    <div class="description text-left">
+                        <div class="row description-title">
+                            <img src="static/images/Logo/logo_image.svg" alt="John Doe" class="logo-img m-1">
+                            <img src="static/images/Logo/logo_text.svg" alt="John Doe" class="logo-text m-1 ml-4">
                         </div>
                         <h4>All IIT Robotics Association</h4>
                         <p>This is a community of tech enthusiasts trying to promote technical learning and implementation by conducting hackathons and other such competitons.</p>
@@ -350,7 +359,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="useful-links col-sm-2 col-md-2 col-6 text-left pl-5">
+                <div class="useful-links col-sm-2 col-md-2 col-12 text-left">
                     <h5>Useful Links</h5>
                     <ul>
                         <li>
@@ -371,8 +380,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-6 col-md-6 col-12">
-                    <div class="contact-form typeform-widget" data-url="https://form.typeform.com/to/JDBqU1Xr?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                <div class="contact-form col-sm-6 col-md-6 col-12">
+                    <div class="typeform-widget" data-url="https://form.typeform.com/to/JDBqU1Xr?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
             </div>
         </div>
