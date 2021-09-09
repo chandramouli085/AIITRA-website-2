@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="static/css/main-page.css">
     <link rel="stylesheet" href="static/css/main-page-mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -48,8 +49,111 @@
     <section class="home" id="home">
         <div class="container text-center info">
             <h1>All IIT Robotics Association</h1>
-            <p>This is a community of tech enthusiasts trying to promote technical learning and implementation by conducting hackathons and other such competitons.</p>
+            <p>
+                This is a community of tech enthusiasts trying to promote technical learning and implementation.We will be organizing open-to-all competitions all over the year for you to showcase your talents and win exciting prizes.
+            </p>
         </div>
+    </section>
+    <hr>
+<!--     <section>
+        <div class="scene">
+            <div class="carousel">
+                <div class="carousel__cell">
+                    <img src="static/images/Sponsors/firefox.png">
+                </div>
+                <div class="carousel__cell">2</div>
+                <div class="carousel__cell">3</div>
+                <div class="carousel__cell">4</div>
+                <div class="carousel__cell">5</div>
+                <div class="carousel__cell">6</div>
+                <div class="carousel__cell">7</div>
+                <div class="carousel__cell">8</div>
+                <div class="carousel__cell">9</div>
+            </div>
+        </div>
+        <p style="text-align: center;">
+            <button class="previous-button">Previous</button>
+            <button class="next-button">Next</button>
+        </p>
+    </section> -->
+    <section class="collaboration" id="collaboration">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12">
+                <header class="section-header text-center">
+                    <h1>Collaboration</h1>
+                </header>
+                <p>
+                    AIITRA is a product of collaboration among the top institutes of India. For the first time ever, Robotics clubs of top 6 IITs have come together to present nation-wide opportunities to all tech enthusiasts.
+                </p>
+            </div>
+            <div class="slides col-sm-6 col-md-6 col-12">
+                <div class="scene">
+                  <div class="carousel">
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Bombay.png">
+                    </div>
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Delhi.png">
+                    </div>
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Kanpur.png">
+                    </div>
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Guwahati.png">
+                    </div>
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Madras.png">
+                    </div>
+                    <div class="carousel__cell">
+                        <img src="static/images/Club logos/Kharagpur.png">
+                    </div>
+                    <div class="carousel__cell">2</div>
+                    <div class="carousel__cell">3</div>
+                    <div class="carousel__cell">4</div>
+                    <div class="carousel__cell">5</div>
+                    <div class="carousel__cell">6</div>
+                    <div class="carousel__cell">7</div>
+                    <div class="carousel__cell">8</div>
+                    <div class="carousel__cell">9</div>
+                    <div class="carousel__cell">10</div>
+                    <div class="carousel__cell">11</div>
+                    <div class="carousel__cell">12</div>
+                    <div class="carousel__cell">13</div>
+                    <div class="carousel__cell">14</div>
+                    <div class="carousel__cell">15</div>
+                  </div>   
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                <div class="carousel-options">
+                  <p hidden>
+                    <label>
+                      Cells
+                      <input class="cells-range" type="range" min="3" max="15" value="9" />
+                    </label>
+                  </p>
+                  <p>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+                    <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                    <!-- <button class="previous-button prev">&#10094;</button> -->
+                    <!-- <button class="next-button next">&#10095;</button> -->
+                  </p>
+                  <p hidden>
+                    Orientation:
+                    <label>
+                      <input type="radio" name="orientation" value="horizontal" checked />
+                      horizontal
+                    </label>
+                    <label>
+                      <input type="radio" name="orientation" value="vertical" />
+                      vertical
+                    </label>
+                  </p>
+                </div>
+            </div>
+        </div>
+    
     </section>
     <hr>
     <section class="events" id="events">
@@ -86,53 +190,61 @@
                 <p>Our endeavours are funded by the following companies</p>
             </header>
             <div class="row">
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/firefox.png">
-                        <!-- <p>Firefox</p> -->
-                    </a>
+                <div class="col-sm-6 col-md-6 col-6">
+                    <div class="row">
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/firefox.png">
+                                <!-- <p>Firefox</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/hp.png">
+                                <!-- <p>HP</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/uber.png">
+                                <!-- <p>Uber</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/firefox.png">
+                                <!-- <p>Firefox</p> -->
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/hp.png">
-                        <!-- <p>HP</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/uber.png">
-                        <!-- <p>Uber</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/firefox.png">
-                        <!-- <p>Firefox</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/hp.png">
-                        <!-- <p>HP</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/uber.png">
-                        <!-- <p>Uber</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/firefox.png">
-                        <!-- <p>Firefox</p> -->
-                    </a>
-                </div>
-                <div class="sponsor-item col-sm-3 col-md-3 col-3">
-                    <a href="#">
-                        <img src="static/images/Sponsors/hp.png">
-                        <!-- <p>HP</p> -->
-                    </a>
+                <div class="col-sm-6 col-md-6 col-6">
+                    <div class="row">
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/hp.png">
+                                <!-- <p>HP</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/uber.png">
+                                <!-- <p>Uber</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/firefox.png">
+                                <!-- <p>Firefox</p> -->
+                            </a>
+                        </div>
+                        <div class="sponsor-item col-sm-3 col-md-3 col-6">
+                            <a href="#">
+                                <img src="static/images/Sponsors/hp.png">
+                                <!-- <p>HP</p> -->
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
