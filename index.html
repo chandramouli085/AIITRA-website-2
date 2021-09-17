@@ -19,6 +19,10 @@
 
 </head>
 <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <div class="box-area">
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
         <img src="static/images/Logo/logo_image.svg" alt="AIITRA logo" class="m-1" style="width:50px;">
         <img src="static/images/Logo/logo_text.svg" alt="AIITRA text" class="m-1 ml-4" style="width:110px;">
@@ -51,8 +55,9 @@
             </ul>
         </div>  
     </nav>
+</div>
     <section class="home" id="home">
-        <div class="container text-center info" aos-data="slide-right" data-aos-delay="50">
+        <div class="container text-center info" aos-data="slide-up" data-aos-delay="140">
             <h1>All IIT Robotics Association</h1>
             <p>
                 This is a community of tech enthusiasts trying to promote technical learning and implementation.We will be organizing open-to-all competitions all over the year for you to showcase your talents and win exciting prizes.
@@ -162,16 +167,16 @@
     </section>
     <hr>
     <section class="events" id="events">
-        <div class="container text-center">
-            <header class="section-header text-center">
+        <div class="container text-center"  >
+            <header class="section-header text-center" data-aos="zoom-out" data-aos-delay="50">
                 <h1>Events</h1>
             </header>
-            <div class="card container">
+            <div class="card container" data-aos="flip-right" data-aos-delay="50">
                 <div class="row">
                     <div class="event-img col-md-4 col-sm-4 col-12 d-flex align-items-center">
                         <img class="card-img" src="static/images/Events/wall_e.jpg">
                     </div>
-                    <div class="event-details col-md-8 col-sm-8 col-12" data-aos="zoom-right">
+                    <div class="event-details col-md-8 col-sm-8 col-12">
                         <h3>Event Title</h3>
                         <hr>
                         <div class="event-description text-left">
@@ -510,6 +515,13 @@
             </div>
         </div>
     </footer>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 2000);
+</script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
