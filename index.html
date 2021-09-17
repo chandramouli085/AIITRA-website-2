@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="static/css/main-page.css">
     <link rel="stylesheet" href="static/css/main-page-mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="static/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
@@ -47,7 +52,7 @@
         </div>  
     </nav>
     <section class="home" id="home">
-        <div class="container text-center info">
+        <div class="container text-center info" aos-data="slide-right" data-aos-delay="50">
             <h1>All IIT Robotics Association</h1>
             <p>
                 This is a community of tech enthusiasts trying to promote technical learning and implementation.We will be organizing open-to-all competitions all over the year for you to showcase your talents and win exciting prizes.
@@ -78,15 +83,15 @@
     </section> -->
     <section class="collaboration" id="collaboration">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-12">
-                <header class="section-header text-center">
+            <div class="col-md-6 col-sm-6 col-12" data-aos="slide-right" data-aos-delay="100">
+                <header class="section-header text-center" >
                     <h1>Collaboration</h1>
                 </header>
                 <p>
                     AIITRA is a product of collaboration among the top institutes of India. For the first time ever, Robotics clubs of top 6 IITs have come together to present nation-wide opportunities to all tech enthusiasts.
                 </p>
             </div>
-            <div class="slides col-sm-6 col-md-6 col-12">
+            <div class="slides col-sm-6 col-md-6 col-12" data-aos="zoom-out-left" data-aos-delay="100">
                 <div class="scene">
                   <div class="carousel">
                     <div class="carousel__cell">
@@ -505,5 +510,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 </body>
 </html>
