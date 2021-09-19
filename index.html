@@ -13,8 +13,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="static/js/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
 
 </head>
@@ -144,7 +142,7 @@
             <header class="section-header text-center" data-aos="zoom-out" data-aos-delay="50">
                 <h1>Events</h1>
             </header>
-            <div class="card container" data-aos="flip-right" data-aos-delay="50">
+            <div class="card container" data-aos="zoom-out" data-aos-delay="20">
                 <div class="row">
                     <div class="event-img col-md-4 col-sm-4 col-12 d-flex align-items-center">
                         <img class="card-img" src="static/images/Events/wall_e.jpg">
@@ -489,13 +487,16 @@
         </div>
     </footer>
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-    setTimeout(function(){
-        $('.loader_bg').fadeToggle();
-    }, 2000);
-</script>
+    <script src="static/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script>
     <script>
       AOS.init();
     </script>
