@@ -113,6 +113,12 @@
 .sponsors .sponsor-item {
 	padding: 0 1% 6%;
 }
+.sponsors a h3 {
+	font-size: 4vw;
+}
+.sponsors a p {
+	font-size: 2.7vw;
+}
 
 /*================================*/
 /* Contact */
