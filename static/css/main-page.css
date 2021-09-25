@@ -155,7 +155,7 @@ nav div ul li:hover {
 }
 
 .collaboration .scene {
-  border: 1px solid #CCC;
+  /*border: 1px solid #CCC;*/
   margin: 5% 0;
   position: relative;
   width: 24vw;
