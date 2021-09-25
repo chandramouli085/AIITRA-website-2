@@ -105,6 +105,16 @@
 }
 
 /*================================*/
+/* Team */
+/*================================*/
+.team h2 {
+	font-size: 6vw;
+}
+.team .heads .team-member{
+	padding: 0 2% 4%;
+}
+
+/*================================*/
 /* Sponsors */
 /*================================*/
 .sponsors .section-header p {
@@ -112,6 +122,9 @@
 }
 .sponsors .sponsor-item {
 	padding: 0 1% 6%;
+}
+.sponsors a h2 {
+	font-size: 5vw;
 }
 .sponsors a h3 {
 	font-size: 4vw;

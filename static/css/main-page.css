@@ -284,16 +284,21 @@ nav div ul li:hover {
 .sponsors .section-header p {
 	font-size: 1.5vw;
 }
-
+.sponsors .sponsor-item {
+	margin: auto auto 5%;
+}
 .sponsors img{
 	width: 100%;
-	padding: 0% 7% 10% 7%;
+	padding: 0% 7% 3% 7%;
 }
 .sponsors a {
 	color: white;
 	text-decoration: none;
 }
 
+.sponsors a h2{
+	font-size: 2vw;
+}
 .sponsors a h3{
 	font-size: 1.5vw;
 }
@@ -306,8 +311,24 @@ nav div ul li:hover {
 .team header {
 	color: white;
 }
-.team .team-member {
+.team h2 {
+	color: white;
+	margin: 3% auto 5%;
+	font-size: 3vw;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+.team .overall-coordinator .team-member {
+	padding: 0 4% 4%;
+}
+.team .overall-coordinator .team-member .card-text{
+	font-size: 15px;
+	margin-bottom: 1%;
+}
+.team .heads .team-member{
 	padding: 0 5% 5%;
+}
+.team .coordinators .team-member{
+	padding: 0 2% 4%;
 }
 .team .card {
 	border-radius: 20px 20px 20px 20px;
