@@ -44,7 +44,7 @@
 }
 
 .collaboration .scene {
-  border: 1px solid #CCC;
+  /*border: 1px solid #CCC;*/
   margin: 5% 0;
   position: relative;
   width: 40vw;
@@ -113,7 +113,10 @@
 .team .heads .team-member{
 	padding: 0 2% 4%;
 }
-
+.team-member .icon .fa {
+	color: white;
+	font-size: 6vw;
+}
 /*================================*/
 /* Sponsors */
 /*================================*/
@@ -147,7 +150,7 @@
 }
 .contact-text {
 	font-size: 5vw;
-	margin: 0;
+	margin: 5% 0 0 ;
 }
 .contact .icon {
 	font-size: 7vw;

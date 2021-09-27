@@ -417,11 +417,11 @@ nav div ul li:hover {
 	width: 25%;
 }
 .contact-text {
-	font-size: 1.5vw;
-	margin: 0;
+	font-size: 2vw;
+	margin: 2.5%;
 }
 .contact .icon {
-	font-size: 2.5vw;
+	font-size: 3vw;
 	margin: 0 5px 0 5px;
 }
 /*.contact .fa-circle-thin {
@@ -429,7 +429,7 @@ nav div ul li:hover {
 }*/
 .useful-links ul {
 	list-style: none;
-	padding: 0;
+	padding: 0 0 0 5%;
 }
 .useful-links a {
 	color: black;
