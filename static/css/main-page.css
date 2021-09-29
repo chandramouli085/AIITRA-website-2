@@ -44,7 +44,7 @@ hr {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
-  background-color: #99ccff;
+  background-color: #13334F;
   border-radius:  0.2rem;
   overflow: hidden;
   display: none;
@@ -58,10 +58,11 @@ hr {
     fill: #000000;
 }
 .notification__close {
-  background-color: #8080ff;
+  background-color: #73c8d9; 
   padding: 1rem;
   display: flex;
   cursor: pointer;
+  border: none;
 }
 .cross_symbol{
   width: 1rem;
@@ -73,7 +74,7 @@ hr {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
-  background-color: #99ccff;
+  background-color: #d6f0ff;
   border-radius:  0.2rem;
   overflow: hidden;
   display: none;
@@ -82,6 +83,14 @@ hr {
   gap: 1rem;
   display: flex;
   animation: pop_up 400ms ease-in-out forwards;
+}
+
+.notification p {
+	margin: auto;
+}
+
+.notification .fa {
+	font-size: 1.5vw;
 }
 
 @keyframes pop_up {
