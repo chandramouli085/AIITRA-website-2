@@ -41,16 +41,17 @@ hr {
 
 .notification {
   z-index:2;
-  position: absolute;
+  position: fixed;
   left: 50%;
   transform: translatex(-50%);
-  background-color: #13334F;
+  background-color: #d6f0ff;
   border-radius:  0.2rem;
   overflow: hidden;
   display: none;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  top:50%;
 }
 .notification__warning {
     width: 1.5rem;
@@ -70,17 +71,6 @@ hr {
 }
 
 .notificationshow{
-  z-index:2;
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  background-color: #d6f0ff;
-  border-radius:  0.2rem;
-  overflow: hidden;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
   display: flex;
   animation: pop_up 400ms ease-in-out forwards;
 }
