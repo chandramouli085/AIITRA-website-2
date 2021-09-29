@@ -86,11 +86,18 @@ hr {
 }
 
 .notification p {
-	margin: auto;
+  margin: auto;
+}
+
+.notification a {
+  text-decoration: none;
 }
 
 .notification .fa {
-	font-size: 1.5vw;
+  font-size: 1.5vw;
+}
+.fa-exclamation-circle{
+  margin-left:1rem;
 }
 
 @keyframes pop_up {

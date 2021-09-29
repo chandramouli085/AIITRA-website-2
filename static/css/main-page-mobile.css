@@ -30,6 +30,20 @@
 .home p {
 	font-size: 4vw;
 }
+/*================================*/
+/* Notification pop-up (enabled- for AIITRA robotics Challenge 2021) */ 
+/*================================*/
+
+.notification{
+  font-size: 1.5vw;
+  gap: 0.3rem;
+}
+.notification__close {
+  padding:0.3rem;
+}
+.fa-exclamation-circle{
+  margin-left:0.5rem;
+}
 
 /*================================*/
 /* Collaboration */
