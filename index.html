@@ -14,12 +14,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      window.addEventListener("load", ()=>{
+  	const notification = document.getElementById("notification");
+      	const closeBtn = document.getElementById("close");
+	
+      	setTimeout( ()=>{
+      	notification.classList.add("notificationshow");
+	},1000);
+
+	closeBtn.addEventListener("click", () => {
+      	notification.classList.remove("notificationshow");});
+      });
+    </script>
  
 
 </head>
 <body>
     <div class="loader_bg">
         <div class="loader"></div>
+    </div>
+    
+    <div id="notification" class="notification">
+      <i class="fa fa-exclamation-circle " aria-hidden="true"></i>      
+      <p>AIITRA Robotics Challenge 2021 is live !! </p>      
+      <a href="https://dare2compete.com/o/dxl69D7" target="_blank">Register Here</a>
+      <button id="close" class="notification__close">
+      <i class="fa fa-times-circle"></i>      
+      </button>
     </div>
     
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
