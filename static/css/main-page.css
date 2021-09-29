@@ -36,6 +36,70 @@ hr {
 }
 
 /*================================*/
+/* Notification pop-up (enabled- for AIITRA robotics Challenge 2021) */ 
+/*================================*/
+
+.notification {
+  z-index:2;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #99ccff;
+  border-radius:  0.2rem;
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.notification__warning {
+    width: 1.5rem;
+    margin-left: 1rem;
+    fill: #000000;
+}
+.notification__close {
+  background-color: #8080ff;
+  padding: 1rem;
+  display: flex;
+  cursor: pointer;
+}
+.cross_symbol{
+  width: 1rem;
+  fill:  #000000;
+}
+
+.notificationshow{
+  z-index:2;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #99ccff;
+  border-radius:  0.2rem;
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+  animation: pop_up 400ms ease-in-out forwards;
+}
+
+@keyframes pop_up {
+  0% {
+    opacity: 0;
+    top: 2rem;
+  }
+  5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 4rem;
+  }
+}
+
+
+/*================================*/
 /* Loader */
 /*================================*/
 
